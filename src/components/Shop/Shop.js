@@ -50,7 +50,6 @@ const Shop = () => {
             newCart = [...cart, product];
         }
 
-        console.log(newCart);
         setCart(newCart);
         // save to local storage (for now)
         addToDb(product.key);
